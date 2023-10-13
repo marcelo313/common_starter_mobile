@@ -1,18 +1,17 @@
-/* Edited Styles */
 
 body {
     background-color: #00bf7d;
     color: #000; 
-    font-family: "Arial", sans-serif; /* Set a default font family for the body */
+    font-family: "Arial", sans-serif;
 }
 
 h1 {
-    font-size: 3rem; /* Use rem for scalable font sizes */
+    font-size: 3rem; 
     text-align: center;
 }
 
 h2, h3 {
-    font-size: 1.875rem; /* Using rem allows scalability and better user customization */
+    font-size: 1.875rem; 
     padding: 1.25rem; 
 }
 
@@ -31,10 +30,10 @@ img {
 
 li {
     display: inline-block;
-    margin-left: 3.125rem; /* Adjust margin using rem for scalability */
+    margin-left: 3.125rem; 
 }
 
-/* Example: Navigation Styling (Consider adding these styles for better UX) */
+
 
 nav ul {
     list-style-type: none;
@@ -44,7 +43,7 @@ nav ul {
 }
 
 nav li {
-    float: left; /* For horizontal navigation */
+    float: left; 
 }
 
 nav a {
@@ -56,7 +55,7 @@ nav a {
 }
 
 nav a.active {
-    background-color: #4CAF50; /* To indicate the active/current page */
+    background-color: #4CAF50;
 }
 
 nav a:hover {

@@ -1,39 +1,65 @@
-/* Existing Styles */
+/* Edited Styles */
 
 body {
     background-color: #00bf7d;
     color: #000; 
+    font-family: "Arial", sans-serif; /* Set a default font family for the body */
 }
 
 h1 {
-    font-family: "Arial", sans-serif; 
-    font-size: 50px; 
+    font-size: 3rem; /* Use rem for scalable font sizes */
     text-align: center;
 }
 
-
-
 h2, h3 {
-    font-family: "Arial", sans-serif; 
-    font-size: 30px; 
-    color: #000;
-    padding: 20px; 
+    font-size: 1.875rem; /* Using rem allows scalability and better user customization */
+    padding: 1.25rem; 
 }
 
 p {
-    font-family: verdana;
-    font-size: 20px;
+    font-family: "Verdana", sans-serif;
+    font-size: 1.25rem;
     line-height: 1.5; 
 }
 
 img {
-    border: 5px solid blue; 
-    padding: 10px;
-    margin: 20px;
-    border-top-right-radius: 30px;
+    border: 0.313rem solid blue; 
+    padding: 0.625rem;
+    margin: 1.25rem;
+    border-top-right-radius: 1.875rem;
 }
 
 li {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 3.125rem; /* Adjust margin using rem for scalability */
+}
+
+/* Example: Navigation Styling (Consider adding these styles for better UX) */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left; /* For horizontal navigation */
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: #4CAF50; /* To indicate the active/current page */
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
 }

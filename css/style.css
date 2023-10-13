@@ -1,28 +1,27 @@
-
 body {
     background-color: #00bf7d;
-    color: #000; 
+    color: #000;
     font-family: "Arial", sans-serif;
 }
 
 h1 {
-    font-size: 3rem; 
+    font-size: 3rem;
     text-align: center;
 }
 
 h2, h3 {
-    font-size: 1.875rem; 
-    padding: 1.25rem; 
+    font-size: 1.875rem;
+    padding: 1.25rem;
 }
 
 p {
     font-family: "Verdana", sans-serif;
     font-size: 1.25rem;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 
 img {
-    border: 0.313rem solid blue; 
+    border: 0.313rem solid blue;
     padding: 0.625rem;
     margin: 1.25rem;
     border-top-right-radius: 1.875rem;
@@ -30,9 +29,8 @@ img {
 
 li {
     display: inline-block;
-    margin-left: 3.125rem; 
+    margin-left: 3.125rem;
 }
-
 
 
 nav ul {
@@ -43,7 +41,7 @@ nav ul {
 }
 
 nav li {
-    float: left; 
+    float: left;
 }
 
 nav a {

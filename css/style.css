@@ -1,9 +1,11 @@
+/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Set up font styles */
 body {
   font-family: "Lato", "Verdana", "Avenir Next", sans-serif;
   font-size: 16px;
@@ -11,6 +13,7 @@ body {
   padding-left: 10px;
 }
 
+/* General styling for all links */
 nav a {
     font-weight: normal;
     color: black;
@@ -19,19 +22,23 @@ nav a {
     margin: 5px;
 }
 
+/* Styling for the active link */
 nav a.active {
     font-weight: bold;
 }
 
+/* Add a background color to the body */
 body {
   background-color: #00bf7d;
 }
 
+/* Apply some common styles to headings */
 h1, h2, h3, h4 {
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
+/* Style links */
 a {
   text-decoration: none;
   color: black;
@@ -42,16 +49,19 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Apply padding to page content */
 .article {
   padding: 16px;
 }
 
+/* Style images */
 .img {
   max-width: 100%;
   height: auto;
   border-radius: 16px;
 }
 
+/* Create a grid layout for home items */
 .home-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -80,6 +90,7 @@ a:hover {
   transform: scale(1.1);
 }
 
+/* Create styles for captions */
 .captioned-img {
   display: flex;
   flex-direction: column;
